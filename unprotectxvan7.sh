@@ -38,6 +38,6 @@ if systemctl list-units --type=service --all | grep -q nginx; then
   systemctl restart nginx || true
 fi
 
-echo "✅ Uninstall Application API selesai!"
+echo "✅ Menghapus Proteksi Anti Akses Application API berhasil di hapus!"
 echo "📂 File controller dikembalikan ke versi backup: $BACKUP_FILE"
 echo "🔓 Berhasil 100%."
